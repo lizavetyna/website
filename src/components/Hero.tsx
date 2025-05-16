@@ -26,11 +26,11 @@ export const Hero: React.FC<HeroProps> = ({ language }) => {
             <a href="#about" className="btn btn-secondary flex items-center justify-center gap-2">
               {t.heroLearn} <ArrowRight size={16} />
             </a>
-            {/*<a href="https://buy.stripe.com/test_eVq00lfaQ76md7R8kN8so00" 
+            <a href="https://buy.stripe.com/eVq00lfaQ76md7R8kN8so00" 
             className="btn btn-secondary flex items-center justify-center gap-2"
             target="_blank">
               {t.heroPay} <ArrowRight size={16} />
-            </a>*/}
+            </a>
           </div>
         </div>
       </div>

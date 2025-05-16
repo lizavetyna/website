@@ -18,7 +18,7 @@ export const EventDetails: React.FC = () => {
             </div>
             <div>
               <h3 className="font-serif text-lg text-navy mb-1">Dates</h3>
-              <p className="text-navy/70">May 24, 2025, 15:00,</p>
+              <p className="text-navy/70">May 24 2025, 15:00,</p>
               <p className="text-navy/70">June 10, 2025,</p>
               <p className="text-navy/70">June 25, 2025 </p>
               <p className="text-navy/70">July 20, 2025 </p>

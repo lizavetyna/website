@@ -1,21 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Instagram, Twitter, Facebook, Mail, Phone } from 'lucide-react';
 
-export const Footer: React.FC = () => {
+interface FooterProps {
+  language: 'EN' | 'RU';
+}
+
+export const Footer: React.FC<FooterProps> = ({ language }) => {
   return (
-    <footer className="bg-navy text-white/80 pt-16 pb-8">
+    <footer className="bg-navy-500 text-black/80 pt-16 pb-8">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           <div>
-            <a href="#" className="font-serif text-2xl text-white tracking-wider mb-4 inline-block">
+            <a href="#" className="font-serif text-2xl text-black tracking-wider mb-4 inline-block">
               ART<span className="font-bold">MODE</span>
             </a>
             <p className="mb-6">
               Exploring the fascinating intersection between haute couture and fine art in our exclusive Paris exhibition.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-white/60 hover:text-gold transition-colors">
-                <Instagram size={20} />
+              <a href="https://www.instagram.com/lizavetyna?igsh=aDlmNGFtd2tieGt1&utm_source=qr" target="_blank" rel="noopener noreferrer" className="text-black/60 hover:text-gold transition-colors">
+              <Instagram size={20} />
               </a>
               <a href="#" className="text-white/60 hover:text-gold transition-colors">
                 <Twitter size={20} />
@@ -58,7 +62,7 @@ export const Footer: React.FC = () => {
                   <Mail size={18} />
                 </div>
                 <a href="mailto:info@artmode-exhibition.com" className="hover:text-gold transition-colors">
-                  info@artmode-exhibition.com
+                  lizavetyna@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-3">
@@ -66,7 +70,7 @@ export const Footer: React.FC = () => {
                   <Phone size={18} />
                 </div>
                 <a href="tel:+33123456789" className="hover:text-gold transition-colors">
-                  +33 1 23 45 67 89
+                  +34 676-599-346
                 </a>
               </li>
               <li>
