@@ -18,7 +18,7 @@ export const EventDetails: React.FC = () => {
             </div>
             <div>
               <h3 className="font-serif text-lg text-navy mb-1">Dates</h3>
-              <p className="text-navy/70">May 22, 2025,</p>
+              <p className="text-navy/70">May 24, 2025, 15:00,</p>
               <p className="text-navy/70">June 10, 2025,</p>
               <p className="text-navy/70">June 25, 2025 </p>
               <p className="text-navy/70">July 20, 2025 </p>
@@ -54,9 +54,10 @@ export const EventDetails: React.FC = () => {
             </div>
             <div>
               <h3 className="font-serif text-lg text-navy mb-1">Admission</h3>
-              <p className="text-navy/70">General: €20</p>
+              <p className="text-navy/70">General: €30</p>
               <p className="text-navy/70 mt-2">
-                <a href="#" className="text-burgundy hover:underline">Book tickets online</a> 
+                <a href="#" className="text-burgundy hover:underline">Admission to the exhibition is not included in the ticket price and must be paid for separately.
+Purchase online in advance to avoid queues.</a> 
               </p>
             </div>
           </div>
